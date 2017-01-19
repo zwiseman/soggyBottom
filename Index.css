@@ -1,0 +1,332 @@
+title{
+    background-image: url("cowsOnHill.jpg");
+}
+
+header{
+    padding: 1.3em;
+    color: #4f872c;
+    background-image: url("store.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 60% 80%;
+    background-color: #538E2F;
+    background-clip: inherit;
+    height: 100px;
+    clear: left;
+    font-size: 75px;
+    text-align: top left;
+    border-radius: 5px
+
+}
+
+#header{
+    position: relative;
+    top:0%;
+    left:0%;
+    font-family: Arial;
+
+    /*1px shadow
+    text-shadow: 
+    -1px 0 #000, 
+    0 1px #000,
+    1px 0 #000,
+    0 -1px #000;
+
+    /*2px shadow*/
+    text-shadow: 
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+    text-align: justify;
+}
+
+#headerText{
+    position: absolute;
+    top:50px;
+    left:100px;
+}
+
+#nav{
+    background-color: #538E2F;
+    padding-top:1px;
+    padding-bottom: 15px;
+    height:50px;
+    border-radius: 5px;
+}
+
+#map-canvas{
+    width: 200px;
+    height:200px;
+    top:50px;
+    left: 1000px;
+}
+
+body{
+    background-color: #454c41;
+}
+
+ul{
+	text-align: right;
+	padding-right: 40px;
+}
+
+li{
+	display: inline-block;
+	color: #00FF13;
+}
+
+/*text stuff*/
+#textbox{
+    position: absolute;
+    background-color: #7f9174;
+    top: 62%;
+    left: 25%;
+    height:110%;
+    padding-left: 200px;
+    border: 3px solid black;
+    padding: 8px;
+    padding-bottom: 10px;
+    width: 51%;
+    font-family: serif;
+    font-size: 27px;
+}
+
+#p2{
+    position:absolute;
+    text-align: center;
+    top:25%;
+}
+
+#p3{
+    position: absolute;
+    top:40%;
+    right:30px;
+    text-align: left;
+}
+
+ #p4{
+    position:absolute;
+    top:65%;
+    left:50px;
+    text-align: center;
+ }
+
+ #signature{
+    position:absolute;
+    top: 85%;
+    left:100px;
+    font-family:'Pacifico', cursive;
+ }
+
+#emailForm{
+    background-color:#7f9174;
+    background-size: 20% 30%;
+    position: absolute;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border-radius: 5px;
+    font-family: arial;
+    top: 750px;
+    right: 75px;
+}
+
+#businessTitle{
+    text-align: center;
+}
+
+#hours{
+    border: 2px solid black;
+    padding: 0.5em;
+    border-radius: 3px;
+}
+
+#businessHours{
+    background-color: #7f9174;
+    background-size:20% 30%;
+    position:absolute;
+    padding-left: 0.5em;
+    padding-right:0.5em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border-radius: 5px;
+    top:500px;
+    text-align: left;
+    border: 1px solid black;
+    font-family: arial;
+}
+
+/*pictures*/
+#asap{
+    position:absolute;
+    top: 50px;
+    right:50px;
+}
+
+#feedingPig{
+    position: absolute;
+    top:30%;
+}
+
+#piglet{
+    position: absolute;
+    top:2%;
+    right:10px;
+}
+
+#animals{
+    position:absolute;
+    top:55%;
+    right:10px;
+}
+
+/*footer*/
+footer{
+    font-family: arial;
+    color:#5b6858;
+}
+
+#footer{
+    position: absolute;
+    height:100px;
+    padding: 1.3em;
+    width: 95%;
+    top:1150px;
+    background-color:#7f9174; 
+    border-radius: 8px
+}
+
+#hour{
+    position:absolute;
+    top: 1160px;
+    left:20px;
+}
+
+#contactInfo{
+    position: absolute;
+    top:1160px;
+    right:500px;
+}
+img{
+    width:125px;
+    height:125px;
+}
+
+/*dropdown styling*/
+li a, .drop {
+    display: inline-block;
+    background-color: #f2f2f2;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+li a:hover, .dropdown:hover .drop {
+    background-color: #A6ACAF;
+    color: white;
+}
+
+li.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    position:absolute;
+    z-index: 4;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: arial;
+}
+
+.twitter{
+    background-image: url("twitter.png");
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #00183E;
+}
+
+.facebook{
+    background-image: url("facebook.png");
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #00183E;
+}
+
+.google-plus{
+    background-image: url("googleplus.png");
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #00183E;
+}
+
+.linkedin{
+    background-image: url("linkedin.png");
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #00183E;
+}
+
+.pinterest{
+    background-image: url("pintrest.png");
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #00183E;
+}
+
+.instagram{
+    background-image: url("instagram.png");
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #00183E;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*end dropdown styling*/
